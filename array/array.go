@@ -22,7 +22,6 @@ func main() {
 	b = [...]int{100, 3: 200, 4}
 	fmt.Println("ind", b)
 
-
 	var twoD [2][3]int
 	for i := range 2 {
 		for j := range 3 {
@@ -32,8 +31,8 @@ func main() {
 	fmt.Println("2d:", twoD)
 
 	twoD = [2][3]int{
-		{1,2,3},
-		{1.2.3},
+		{1, 2, 3},
+		{1, 2, 3},
 	}
 	fmt.Println("2d", twoD)
 }
